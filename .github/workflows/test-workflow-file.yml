@@ -5,7 +5,7 @@ on:
      branches: [ main ]
 jobs:
   build1:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
      - uses: actions/checkout@v2
      - name: Run a one-line script
